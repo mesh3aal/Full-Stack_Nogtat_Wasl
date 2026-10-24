@@ -1,0 +1,27 @@
+global using Application_Layer.Helper;
+global using Application_Layer.Models.ReciveDTOs.AuthController;
+global using Application_Layer.Models.ReciveDTOs.CategoryDTOs;
+global using Application_Layer.Models.ReciveDTOs.DashboardController.OwnerDasboard;
+global using Application_Layer.Models.ReciveDTOs.DashboardDTOs.AdminDashboardController;
+global using Application_Layer.Models.ReciveDTOs.RequestDTOs;
+global using Application_Layer.Models.ReciveDTOs.StoreDTOs;
+global using Application_Layer.Models.ReciveDTOs.SubcategoryController;
+global using Application_Layer.Models.ReciveDTOs.UserManagementController.UserManagementDto;
+global using Application_Layer.Models.ReciveDTOs.UsersettingsController;
+global using Application_Layer.Models.SendDTO.PlaceController;
+global using Application_Layer.Models.SendDTO.subcategory;
+global using Application_Layer.Models.SendDTO;
+global using Application_Layer;
+global using Ardalis.Result.AspNetCore;
+global using Ardalis.Result;
+global using Domain_Layer.Enums;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.IdentityModel.Tokens;
+global using Persistence_Layer.Persistence;
+global using Persistence_Layer;
+global using System.Text.Json.Serialization;
+global using System.Text;
+
+global using WebAPI;

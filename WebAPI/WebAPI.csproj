@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.13" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="10.0.13" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.13" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.13">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.13">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+        <PackageReference Include="Scalar.AspNetCore" Version="2.18.2" />
+        <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.13" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="wwwroot\images\places\Pizza'sHouse\" />
+        <Folder Include="wwwroot\images\stores\1\additional\" />
+        <Folder Include="wwwroot\uploads\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <_ContentIncludedByDefault Remove="wwwroot\images\homevenger@gmail.com\2026-2-20-23-0-5-165-859.jpg" />
+        <_ContentIncludedByDefault Remove="wwwroot\images\homevenger@gmail.com\2026-2-20-23-6-12-869-379.jpg" />
+        <_ContentIncludedByDefault Remove="wwwroot\images\homevenger@gmail.com\20262202395636606.jpg" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="..\.dockerignore">
+            <Link>.dockerignore</Link>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Application\Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Properties\PublishProfiles\site65044-WebDeploy.pubxml" />
+    </ItemGroup>
+
+</Project>
