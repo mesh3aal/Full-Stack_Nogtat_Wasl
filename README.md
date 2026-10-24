@@ -28,24 +28,15 @@
 
 <div align="center">
 
-<!-- تضمين مشغل اليوتيوب المباشر عبر IFrame -->
-<iframe 
-  width="100%" 
-  height="480" 
-  src="https://www.youtube.com/embed/lQR5xYPMab8?si=NogtatWaslDemo" 
-  title="استعراض منصة نقطة وصل - Nogtat Wasl Demo" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" 
-  allowfullscreen
-  style="border-radius: 14px; max-width: 900px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);">
-</iframe>
+<iframe width="100%" height="480" style="max-width: 840px; aspect-ratio: 16/9; border-radius: 12px; border: none; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);" src="https://www.youtube.com/embed/lQR5xYPMab8" title="استعراض منصة نقطة وصل - Nogtat Wasl Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<br/><br/>
-
-[![مشاهدة فيديو استعراض نقطة وصل](https://img.youtube.com/vi/lQR5xYPMab8/maxresdefault.jpg)](https://youtu.be/lQR5xYPMab8)
-
-👉 **[اضغط هنا لمشاهدة الفيديو مباشرة على YouTube بدقة فائقة](https://youtu.be/lQR5xYPMab8)** 👈
+<p align="center">
+  <a href="https://youtu.be/lQR5xYPMab8" target="_blank">
+    <img src="https://img.youtube.com/vi/lQR5xYPMab8/maxresdefault.jpg" width="840" style="max-width: 100%; border-radius: 12px;" alt="مشاهدة استعراض منصة نقطة وصل" />
+  </a>
+  <br/>
+  👉 <b><a href="https://youtu.be/lQR5xYPMab8" target="_blank">اضغط هنا لمشاهدة الاستعراض مباشرة بدقة عالية على YouTube</a></b> 👈
+</p>
 
 </div>
 
@@ -98,12 +89,6 @@ sequenceDiagram
 > *جميع الصور التالية مأخوذة مباشرة من مجلد `gallery/` المحلي بأعلى دقة ووضوح ودون أي ضغط خارجي.*
 
 <div align="center">
-
-### 🌟 الصفحة الرئيسية واستكشاف الأماكن المميزة
-<p align="center">
-  <img src="gallery/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-10-22%20190529.png" width="49%" alt="الصفحة الرئيسية - 1" />
-  <img src="gallery/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-10-22%20192317.png" width="49%" alt="الصفحة الرئيسية - 2" />
-</p>
 
 ### 🔍 التصنيفات والأماكن الأعلى تقييماً
 <p align="center">
